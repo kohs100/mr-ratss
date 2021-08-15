@@ -1,0 +1,44 @@
+.rotBox > div {
+    margin: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+    position: absolute;
+}
+
+.rotAxis {
+    left: 3px;
+}
+
+.rotPlus {
+    right: 40px;
+    width: 31px;
+    height: 41px;
+    background-image: url('original/plus.svg');
+}
+
+.rotPlus:hover {
+    background-image: url('hover/plus.svg');
+}
+
+.rotMinus {
+    right: 9px;
+    width: 31px;
+    height: 41px;
+    background-image: url('original/minus.svg');
+}
+
+.rotMinus:hover {
+    background-image: url('hover/minus.svg');
+}
+
+.pitchIcon {
+    width: 45px;
+    height: 45px;
+    background-image: url('pitch.svg');
+}
+
+.yawIcon {
+    width: 45px;
+    height: 45px;
+    background-image: url('yaw.svg');
+}

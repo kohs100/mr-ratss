@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>MR RATSS</title>
+    <link rel="stylesheet" type="text/css" href="style/layout.css">
+    <link rel="stylesheet" type="text/css" href="style/control/layout.css">
+    <link rel="stylesheet" type="text/css" href="style/control/btn.css">
+    <link rel="stylesheet" type="text/css" href="style/control/translation/translation.css">
+    <link rel="stylesheet" type="text/css" href="style/control/rotation/rotation.css">
+    <link rel="stylesheet" type="text/css" href="style/video/placeholder.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="js/main.js"></script>
+</head>
+
+<body>
+    <div id="mainContainer">
+        <div id="videoContainer">
+            <img src="https://dummyimage.com/1280x720/000/fff.jpg&text=Supervision+Camera+Output">
+        </div>
+
+        <div id="btnContainer">
+            <div id="addrBox" class="ctrlBox wordBox ">Enter Server Address</div>
+            <div id="connBox" class="ctrlBox wordBox clickBox btn">Connect</div>
+            <div id="darkBox" class="ctrlBox wordBox clickBox btn">Enable Dark Mode</div>
+            <div id="pitchBox" class="ctrlBox rotBox">
+                <div class="pitchIcon rotAxis"></div>
+                <div id="pitchIncBtn" class="rotPlus btn"></div>
+                <div id="pitchDecBtn" class="rotMinus btn"></div>
+            </div>
+            <div id="yawBox" class="ctrlBox rotBox">
+                <div class="yawIcon rotAxis"></div>
+                <div id="yawIncBtn" class="rotPlus btn"></div>
+                <div id="yawDecBtn" class="rotMinus btn"></div>
+            </div>
+            <div id="ctrlTranslation" class="ctrlBox">
+                <svg width="103" height="103" viewBox="0 0 103 103" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M34 34V13C34 5.82031 39.8203 0 47 0H90C97.1797 0 103 5.82031 103 13V56C103 63.1797 97.1797 69 90 69H69V90C69 97.1797 63.1797 103 56 103H13C5.82031 103 0 97.1797 0 90V47C0 39.8203 5.82031 34 13 34H34Z" fill="#E5E5E5"/>
+                </svg>
+                <div id="trlBox">
+                    <div id="x-plus" class="xAxis btn"></div>
+                    <div id="x-minus" class="xAxis btn"></div>
+
+                    <div id="y-plus" class="yAxis btn"></div>
+                    <div id="y-minus" class="yAxis btn"></div>
+
+                    <div id="z-plus" class="zAxis btn"></div>
+                    <div id="z-minus" class="zAxis btn"></div>
+                </div>
+                    
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

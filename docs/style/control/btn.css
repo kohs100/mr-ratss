@@ -1,0 +1,23 @@
+.btn {
+    cursor: Pointer;
+}
+
+.ctrlBox {
+    background-color: #c4c4c4;
+    border-radius: 20px;
+}
+
+.ctrlBox.dark {
+    background-color: #545454;
+}
+
+.ctrlBox.clickBox:hover {
+    background-color: #B5e1ef;
+}
+
+.wordBox {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18pt;
+    line-height: 59px;
+}

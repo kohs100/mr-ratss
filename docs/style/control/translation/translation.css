@@ -1,0 +1,98 @@
+#ctrlTranslation > svg {
+    position: absolute;
+    margin: 9px;
+}
+
+#trlBox {
+    position: absolute;
+    margin: 9px;
+    width: 103px;
+    height: 103px;
+}
+
+#trlBox > div {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.zAxis {
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 2;
+    width: 34px;
+    height: 34px;
+}
+
+.yAxis {
+    top: 50%;
+    transform: translate(0, -50%);
+    z-index: 2;
+    width: 34px;
+    height: 34px;
+}
+
+.xAxis {
+    z-index: 1;
+    width: 40px;
+    height: 40px;
+}
+
+#x-plus {
+    left: 0;
+    bottom: 0;
+    background-image: url('original/x-pos.svg');
+}
+
+#x-plus:hover {
+    background-image: url('hover/x-pos.svg');
+}
+
+#x-minus {
+    right: 0;
+    top: 0;
+    background-image: url('original/x-neg.svg');
+}
+
+#x-minus:hover {
+    background-image: url('hover/x-neg.svg');
+}
+
+
+#y-plus {
+    right: 0;
+    background-image: url('original/y-pos.svg');
+}
+
+#y-plus:hover {
+    background-image: url('hover/y-pos.svg');
+}
+
+
+#y-minus {
+    left: 0;
+    background-image: url('original/y-neg.svg');
+}
+
+#y-minus:hover {
+    background-image: url('hover/y-neg.svg');
+}
+
+
+#z-plus {
+    top: 0;
+    background-image: url('original/z-pos.svg');
+}
+
+#z-plus:hover {
+    background-image: url('hover/z-pos.svg');
+}
+
+#z-minus {
+    bottom: 0;
+    background-image: url('original/z-neg.svg');
+}
+
+#z-minus:hover {
+    background-image: url('hover/z-neg.svg');
+}
