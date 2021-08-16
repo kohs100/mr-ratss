@@ -13,32 +13,54 @@
     right: 40px;
     width: 31px;
     height: 41px;
-    background-image: url('original/plus.svg');
+    background-image: url('li/original/plus.svg');
 }
 
 .rotPlus:hover {
-    background-image: url('hover/plus.svg');
+    background-image: url('li/hover/plus.svg');
 }
 
 .rotMinus {
     right: 9px;
     width: 31px;
     height: 41px;
-    background-image: url('original/minus.svg');
+    background-image: url('li/original/minus.svg');
 }
 
 .rotMinus:hover {
-    background-image: url('hover/minus.svg');
+    background-image: url('li/hover/minus.svg');
 }
 
 .pitchIcon {
     width: 45px;
     height: 45px;
-    background-image: url('pitch.svg');
+    background-image: url('li/pitch.svg');
+}
+
+.pitchIcon.dark {
+    background-image: url('da/pitch.svg');
 }
 
 .yawIcon {
     width: 45px;
     height: 45px;
-    background-image: url('yaw.svg');
+    background-image: url('li/yaw.svg');
 }
+
+.yawIcon.dark {
+    background-image: url('da/yaw.svg');
+}
+
+.rotPlus.dark {
+    background-image: url('da/original/plus.svg');
+}
+.rotPlus.dark:hover {
+    background-image: url('da/hover/plus.svg');
+}
+.rotMinus.dark {
+    background-image: url('da/original/minus.svg');
+}
+.rotMinus.dark:hover {
+    background-image: url('da/hover/minus.svg');
+}
+

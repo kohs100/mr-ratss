@@ -27,15 +27,8 @@ body.dark {
 }
 
 #videoContainer {
-    background-color: #c4c4c4;
-    border-radius: 20px;
-
     grid-column: 2 / 3;
     grid-row: 2 / 3;
-}
-
-#videoContainer.dark {
-    background-color: #545454;
 }
 
 #btnContainer {

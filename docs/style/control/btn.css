@@ -7,10 +7,6 @@
     border-radius: 20px;
 }
 
-.ctrlBox.dark {
-    background-color: #545454;
-}
-
 .ctrlBox.clickBox:hover {
     background-color: #B5e1ef;
 }
@@ -20,4 +16,17 @@
     font-family: 'Roboto', sans-serif;
     font-size: 18pt;
     line-height: 59px;
+    color: black;
+}
+
+.ctrlBox.dark {
+    background-color: #545454;
+}
+
+.ctrlBox.clickBox.dark:hover {
+    background-color: #B2D9E5;
+}
+
+.wordBox.dark {
+    color: white;
 }
